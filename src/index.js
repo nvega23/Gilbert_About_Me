@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter as Router } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
 import App from './App';
-import Navbar from './components/navbar/navbar';
+import './index.css';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <Router>
+ReactDOM.render(
+  <BrowserRouter basename={process.env.PUBLIC_URL}>
     <App />
-  </Router>,
+  </BrowserRouter>,
+  document.getElementById('root')
 );
