@@ -23,17 +23,10 @@ const ContactForm = () => {
     e.preventDefault();
     setStatus('Sending...');
   
-    const serviceID = 'service_htofaib';
-    const templateID = 'template_8r8kb3g';
-    const userID = 'KSknGBmQQfMqzfkIs';
-    // const serviceID = process.env.REACT_APP_EMAILJS_SERVICE_ID;
-    // const templateID = process.env.REACT_APP_EMAILJS_TEMPLATE_ID;
-    // const userID = process.env.REACT_APP_EMAILJS_USER_ID;
+    const serviceID = process.env.REACT_APP_EMAILJS_SERVICE_ID;
+    const templateID = process.env.REACT_APP_EMAILJS_TEMPLATE_ID;
+    const userID = process.env.REACT_APP_EMAILJS_USER_ID;
 
-    console.log("Service ID:", serviceID);
-    console.log("Template ID:", templateID);
-    console.log("User ID:", userID);
-  
     emailjs.send(serviceID, templateID, formData, userID)
       .then(() => {
         setStatus('Message sent successfully!');
