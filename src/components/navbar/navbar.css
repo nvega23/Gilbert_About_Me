@@ -1,0 +1,63 @@
+.navbarContainer{
+    width: -webkit-fill-available;
+    display: flex;
+    justify-content: center;
+    gap: 5vh;
+    position: sticky;
+    background-color: #344955;
+    color: white;
+    padding: 3vh;
+    top: 0;
+    left: 0;
+    font-family: cursive;
+}
+
+.links{
+    text-decoration: none;
+    color: white;
+}
+
+.navbarComponents{
+    text-decoration: none;
+    font-size: 2vh;
+}
+
+.sideBox{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttonContainer{
+    display: flex;
+    gap: 3vh;
+}
+
+.makeAppointment{
+    border: 1px solid rgba(0, 0, 0, 0.394);
+    padding: 10px 16px;
+    background-color: white;
+    border-radius: 1vh;
+    font-family: cursive;
+    cursor: pointer;
+}
+
+.makeAppointment:hover{
+    background-color: black;
+    color: white;
+}
+
+.donate{
+    border: 1px solid rgba(0, 0, 0, 0.394);
+    padding: 10px 16px;
+    background-color: white;
+    border-radius: 1vh;
+    font-family: cursive;
+    cursor: pointer;
+}
+
+.donate:hover{
+    background-color: black;
+    color: white;
+}

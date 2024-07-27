@@ -1,0 +1,40 @@
+.serviceContainer {
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.serviceHeader {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10vh;
+}
+
+.serviceImage {
+    width: 30vh;
+    margin-right: 3vh;
+}
+
+.textServiceContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 3vh;
+    gap: 2vh;
+    width: 50%;
+    font-size: larger;
+}
+
+ul {
+    width: 15vh;
+}
+
+.listContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    gap: 5vh;
+}

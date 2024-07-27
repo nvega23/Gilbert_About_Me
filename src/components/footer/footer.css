@@ -1,0 +1,24 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.footerContainer{
+    background-color: #344955;
+    color: white;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footerInfo{
+    width: 20vh;
+}
+
+.footerInfo, .footerText {
+    margin: 0;
+    padding: 0;
+}

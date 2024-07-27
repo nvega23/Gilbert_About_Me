@@ -1,0 +1,28 @@
+.aboutContainer{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 15vh; */
+}
+
+.aboutMeImageContainer{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutMeImage{
+    width: -webkit-fill-available;
+    margin-left: 5vh;
+}
+
+.aboutText{
+    width: 50%;
+    height: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

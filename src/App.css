@@ -1,0 +1,44 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.appContainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+:root {
+    --primary-color: #F0F4F8;
+    --secondary-color: #D1E8E2;
+    --accent-color: #344955;
+    --text-color: #2E4057;
+}
+
+body {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: var(--secondary-color);
+    padding: 20px;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    color: var(--accent-color);
+}
+
+button:hover {
+    background-color: var(--text-color);
+}
