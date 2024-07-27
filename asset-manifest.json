@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Gilbert_About_Me/static/css/main.428774bc.css",
+    "main.js": "/Gilbert_About_Me/static/js/main.13c34070.js",
+    "static/media/gilbert_web.avif": "/Gilbert_About_Me/static/media/gilbert_web.b60a534015acc2c062b4.avif",
+    "static/media/church.avif": "/Gilbert_About_Me/static/media/church.0c26f1e9cbba2b882b84.avif",
+    "static/media/portrait.avif": "/Gilbert_About_Me/static/media/portrait.f35092f3b5d00b468d7a.avif",
+    "index.html": "/Gilbert_About_Me/index.html",
+    "main.428774bc.css.map": "/Gilbert_About_Me/static/css/main.428774bc.css.map",
+    "main.13c34070.js.map": "/Gilbert_About_Me/static/js/main.13c34070.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.428774bc.css",
+    "static/js/main.13c34070.js"
+  ]
+}
