@@ -12,10 +12,11 @@ html, body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-top: 15vh;
 }
 
 .footerInfo{
-    width: 20vh;
+    width: auto;
 }
 
 .footerInfo, .footerText {
