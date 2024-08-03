@@ -15,12 +15,25 @@
     /* background-color: rgba(0, 0, 0, 0.749); */
     background-color: white;
     box-shadow: -4px 6px 20px rgba(0, 0, 0, 0.41);
+    border: 3px solid black;
     padding: 5vh;
     width: 50%;
     gap: 3vh;
     margin-top: 5vh;
     margin-bottom: 5vh;
     border-radius: 1vh;
+}
+
+.formContainer input{
+    padding: 16px 10px;
+    border-radius: 8px;
+    border: 2px solid black;
+}
+
+.formContainer textarea{
+    padding: 16px 10px;
+    border-radius: 8px;
+    border: 2px solid black;
 }
 
 #message{
@@ -67,10 +80,14 @@
     font-size: x-large;
 }
 
-input:hover{
+/* input:hover{
     background-color: aliceblue;
 }
 
 textarea:hover{
     background-color: aliceblue;
+} */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    
 }

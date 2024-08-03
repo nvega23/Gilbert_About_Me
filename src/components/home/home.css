@@ -1,7 +1,12 @@
-/* .homeContainer{
-    margin-top: 20vh;
-} */
+.homeContainer {
+    /* margin-top: 20vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-.homeImage{
-    width: -webkit-fill-available;
+.homeImage {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
 }

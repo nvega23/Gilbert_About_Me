@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import image from '../../assets/portrait.avif';
+import image from '../../assets/gil.png';
 import './about.css';
 
 function About(){
