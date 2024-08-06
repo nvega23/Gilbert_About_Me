@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/Gilbert_About_Me/static/css/main.ad823053.css",
-    "main.js": "/Gilbert_About_Me/static/js/main.791f1fb5.js",
+    "main.css": "/Gilbert_About_Me/static/css/main.1f25cc51.css",
+    "main.js": "/Gilbert_About_Me/static/js/main.cf463331.js",
     "static/media/gil.png": "/Gilbert_About_Me/static/media/gil.eeddbe5967564f92110c.png",
-    "static/media/beach.png": "/Gilbert_About_Me/static/media/beach.d50d1a6b33f6bd951d88.png",
+    "static/media/lilies.png": "/Gilbert_About_Me/static/media/lilies.4d1039989915dcadf205.png",
+    "static/media/home.png": "/Gilbert_About_Me/static/media/home.418b964d76fbf48b3948.png",
     "index.html": "/Gilbert_About_Me/index.html",
-    "main.ad823053.css.map": "/Gilbert_About_Me/static/css/main.ad823053.css.map",
-    "main.791f1fb5.js.map": "/Gilbert_About_Me/static/js/main.791f1fb5.js.map"
+    "main.1f25cc51.css.map": "/Gilbert_About_Me/static/css/main.1f25cc51.css.map",
+    "main.cf463331.js.map": "/Gilbert_About_Me/static/js/main.cf463331.js.map"
   },
   "entrypoints": [
-    "static/css/main.ad823053.css",
-    "static/js/main.791f1fb5.js"
+    "static/css/main.1f25cc51.css",
+    "static/js/main.cf463331.js"
   ]
 }
