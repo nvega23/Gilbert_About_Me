@@ -1,5 +1,5 @@
 import React from 'react';
-import image from '../../assets/church.avif';
+import image from '../../assets/gil.png';
 import './service.css';
 
 function Service() {
@@ -7,22 +7,41 @@ function Service() {
         <>
             <h1 className='serviceHeader'>Services</h1>
             <div className='serviceContainer'>
-                <img className='serviceImage' src={image} alt="praying"/>
+                <img src={image} alt="About me image" className='aboutMeImageService'/>
                 <div className="textServiceContainer">
-                    <p>Rapha Christian Counseling Center believes that nothing is impossible with God and that He alone is the author of life and change that everyone needs. Without Him, we are powerless to achieve and overcome life's challenges successfully.</p>
                     <div className="listContainer">
+                    <h3>Meet Gilbert Sosa, MBA, LCPC!</h3>
+                    <div className="textContainer">
+
                         <ul>
-                            <li>Depression</li>
-                            <li>Domestic Violence</li>
-                            <li>Marriage Counseling</li>
-                            <li>Child Therapy</li>
+                            <li>
+                                Licensed Clinical Pastoral Counselor
+                            </li>
+                            <li>
+                                Certified Temperament Pastoral Counselor
+                            </li>
+                            <li>
+                                Certified Temperament Counselor
+                            </li>
+                            <li>
+                                Licensed by the
+                                National Christian Counseling Association
+                            </li>
                         </ul>
                         <ul>
-                            <li>Addiction</li>
-                            <li>Abuse</li>
-                            <li>Eating Disorders</li>
-                            <li>Grief</li>
+                            <li>
+                                Specializing in:
+                                Pre-Marital Counseling
+                            </li>
+                            <li>
+                                Marriage Counseling
+                            </li>
+                            <li>
+                                Couples Therapy
+                            </li>
                         </ul>
+                    </div>
+                    <p>N.C.C.A. Lic# 24783</p>
                     </div>
                 </div>
             </div>
