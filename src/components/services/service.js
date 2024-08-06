@@ -1,5 +1,5 @@
 import React from 'react';
-import image from '../../assets/gil.png';
+import image from '../../assets/lilies.png';
 import './service.css';
 
 function Service() {

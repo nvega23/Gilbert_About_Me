@@ -65,5 +65,7 @@
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
     .navbarContainer{
         width: auto;
-    }   
+        gap: 1vh;
+        height: 10vh;
+    }
 }

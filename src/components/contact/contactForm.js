@@ -54,7 +54,7 @@ const ContactForm = () => {
           />
       </div>
       <div className="containerAroundInputs">
-        <div>
+        <div className='emailPhone'>
           {/* <label htmlFor="email">Email:</label> */}
           <input
             type="email"
@@ -66,7 +66,7 @@ const ContactForm = () => {
             required
             />
         </div>
-        <div>
+        <div className='emailPhone'>
           <input
             type="phone"
             id="phone"

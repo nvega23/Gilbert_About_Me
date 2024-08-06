@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import image from '../../assets/beach.png'
+import image from '../../assets/home.png'
 import './home.css'
 import About from '../about/about';
 import Contact from '../contact/contact'

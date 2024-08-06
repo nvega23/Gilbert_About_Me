@@ -4,18 +4,24 @@
     justify-content: center;
     align-items: center;
     flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin-top: 10vh;
 }
 
 .serviceHeader {
     display: flex;
     justify-content: center;
     width: 100%;
-    margin-top: 10vh;
+    margin-bottom: 3vh;
 }
 
-.serviceImage {
-    width: 30vh;
-    margin-right: 3vh;
+.aboutMeImageService {
+    width: 50vh;
+    height: 60vh;
+    margin-right: 5vh;
+    border-radius: 8px;
+    flex-shrink: 0;
 }
 
 .textServiceContainer {
@@ -25,10 +31,6 @@
     gap: 2vh;
     width: 50%;
     font-size: larger;
-}
-
-ul {
-    width: 15vh;
 }
 
 .listContainer {
@@ -44,21 +46,60 @@ ul {
     box-shadow: 0 10px 25px rgba(92, 99, 105, .2);
 }
 
-.textContainer{
+.textContainer {
     display: flex;
-    justify-content: center;
-    width: -webkit-fill-available;
+    justify-content: space-between;
+    width: 100%;
     font-size: smaller;
+    flex-wrap: wrap;
 }
 
-.aboutMeImageService{
-    width: 50vh;
-    height: 60vh;
-    margin-left: 5vh;
-    border-radius: 8px;
-}
-
-.textContainer ul{
+.textContainer ul {
     width: auto;
     padding: 1vh;
+    flex: 1;
+    margin: 0 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .serviceContainer {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .aboutMeImageService {
+        width: 80%;
+        height: auto;
+        margin: 0;
+    }
+
+    .textServiceContainer {
+        width: 100%;
+        align-items: center;
+        padding: 0 10px;
+    }
+
+    .textContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .textContainer ul {
+        width: 100%;
+        text-align: center;
+    }
+    #message{
+        width: 55vw;
+    }
+    .formContainer{
+        width: auto;
+    }
+    .footerInfo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
 }
