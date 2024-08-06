@@ -2,6 +2,7 @@
   "name": "counseling",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://nvega23.github.io/Gilbert_About_Me/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -18,9 +19,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "build:docs": "npm run build && mv build docs && touch docs/.nojekyll",
-    "predeploy": "npm run build:docs",
-    "deploy": "gh-pages -d docs -b main"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -39,6 +39,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "homepage": "https://nvega23.github.io/Gilbert_About_Me/"
+  }
 }
